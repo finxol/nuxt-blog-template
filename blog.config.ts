@@ -8,25 +8,25 @@ export default defineBlogConfig({
     meta: [
         {
             name: "description",
-            content: "This is a template blog",
+            content: "This is a template blog"
         },
         {
             name: "fediverse:creator",
-            content: "your fediverse handle",
-        },
+            content: "your fediverse handle"
+        }
     ],
     links: [
         {
             name: "bluesky",
-            url: "https://bsky.app/profile/yourhandle",
+            url: "https://bsky.app/profile/yourhandle"
         },
         {
             name: "github",
-            url: "https://github.com/yourusername",
+            url: "https://github.com/yourusername"
         },
         {
             name: "mastodon",
-            url: "https://mastodon.social/@yourhandle",
-        },
-    ],
+            url: "https://mastodon.social/@yourhandle"
+        }
+    ]
 });

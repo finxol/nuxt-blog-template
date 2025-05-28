@@ -8,7 +8,6 @@ const pageBackground = ref("bg-stone-100 dark:bg-neutral-900");
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
 
-console.log(config.title)
 
 useHead({
     title: config.title,
@@ -25,9 +24,7 @@ useHead({
 });
 
 const { data } = await useAsyncData("navigation", () => {
-    return queryCollectionNavigation("pages", [
-        "path",
-    ])
+    return queryCollectionNavigation("pages", ["path"]);
 });
 
 const pages = data.value ? data.value[0]?.children : [];
@@ -37,17 +34,17 @@ const links = ref(
         {
             icon: "ant-design:github-filled",
             title: "GitHub",
-            href: config.links.find(link => link.name === "github")?.url
+            href: config.links.find((link) => link.name === "github")?.url
         },
         {
             icon: "ri:mastodon-fill",
             title: "Mastodon",
-            href: config.links.find(link => link.name === "mastodon")?.url
+            href: config.links.find((link) => link.name === "mastodon")?.url
         },
         {
             icon: "ri:bluesky-fill",
             title: "BlueSky",
-            href: config.links.find(link => link.name === "bluesky")?.url
+            href: config.links.find((link) => link.name === "bluesky")?.url
         }
     ].reverse()
 );
