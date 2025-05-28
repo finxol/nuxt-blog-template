@@ -16,18 +16,9 @@ export default defineBlogConfig({
             content: "your fediverse handle"
         }
     ],
-    links: [
-        {
-            name: "bluesky",
-            url: "https://bsky.app/profile/yourhandle"
-        },
-        {
-            name: "github",
-            url: "https://github.com/yourusername"
-        },
-        {
-            name: "mastodon",
-            url: "https://mastodon.social/@yourhandle"
-        }
-    ]
+    links: {
+        github: "https://github.com/yourusername",
+        mastodon: "https://mastodon.social/@yourhandle",
+        bluesky: "https://bsky.app/profile/yourhandle"
+    }
 });
