@@ -1,39 +1,36 @@
-# Nuxt Minimal Starter
+# Nuxt Blog Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a simple Nuxt.js blog template.
 
-## Setup
+## Getting started
 
 Make sure to install dependencies:
 
 ```bash
-# pnpm
 pnpm install
 ```
 
-## Development Server
+### Configure
+
+The config file is `blog.config.ts`.
+It should already contain all the possible configuration options.
+
+The favicon and logo used throughout the blog is the `assets/logo.png` file.
+You can change it to your own logo by replacing it with your own logo.
+
+### Write!
+
+All your posts need to live inside the `content/posts` directory.
+The files will be automatically picked up by Nuxt, and the file names will become the post urls.
+
+Check out the [Nuxt Content documentation](https://content.nuxt.com/docs/files/markdown) for more info.
+
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# pnpm
 pnpm dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# pnpm
-pnpm build
-```
-
-Locally preview production build:
-
-```bash
-# pnpm
-pnpm preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information on production deployment.
