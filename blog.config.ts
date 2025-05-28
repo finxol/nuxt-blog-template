@@ -5,6 +5,7 @@ export default defineBlogConfig({
     sharingProviders: ["bluesky", "clipboard", "native"],
     title: "Template blog",
     author: "Your name",
+    site: "https://example.com",
     meta: [
         {
             name: "description",

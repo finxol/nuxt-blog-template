@@ -8,7 +8,6 @@ const pageBackground = ref("bg-stone-100 dark:bg-neutral-900");
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
 
-
 useHead({
     title: config.title,
     meta: [
