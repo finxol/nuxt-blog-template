@@ -2,6 +2,8 @@
 
 This is a simple Nuxt.js blog template.
 
+See it live at [https://finxol.io](https://finxol.io).
+
 ## Getting started
 
 Make sure to install dependencies:
