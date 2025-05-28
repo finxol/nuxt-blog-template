@@ -2,10 +2,7 @@ name: deno-deploy
 on:
     push:
         branches:
-            - main
-    pull_request:
-        branches:
-            - main
+            - change-to-main-if-you-want-to-deploy-to-deno-deploy
 jobs:
     deploy:
         runs-on: ubuntu-latest
