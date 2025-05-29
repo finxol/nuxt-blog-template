@@ -5,7 +5,7 @@ export default defineBlogConfig({
     sharingProviders: ["bluesky", "clipboard", "native"],
     title: "Template blog",
     author: "Your name",
-    site: "https://example.com",
+    site: "https://nuxt-blog-template.deno.dev",
     meta: [
         {
             name: "description",
