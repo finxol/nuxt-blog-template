@@ -4,6 +4,15 @@ This is a simple Nuxt.js blog template.
 
 See it live at [https://finxol.io](https://finxol.io).
 
+## Features
+
+- ✏️ Easy Markdown post authoring
+- 🖌️ Clean minimal style for easy reading
+- 🚀 Deploy anywhere!
+- 🎨 Easily customisable
+- 🌐 Automatic OpenGraph image generation
+- 🖨️ Adapted styles for printing (try printing a post in the demo)
+
 ## Getting started
 
 Make sure to install dependencies:

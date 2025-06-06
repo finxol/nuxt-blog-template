@@ -15,6 +15,7 @@ export default defineBlogConfig({
             name: "fediverse:creator",
             content: "your fediverse handle"
         }
+        // anything else you want injected in head
     ],
     links: {
         github: "https://github.com/yourusername",
