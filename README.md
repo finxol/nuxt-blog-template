@@ -26,7 +26,7 @@ pnpm install
 The config file is `blog.config.ts`.
 It should already contain all the possible configuration options.
 
-The favicon and logo used throughout the blog is the `assets/logo.png` file.
+The favicon and logo used throughout the blog is the `public/logo.png` file.
 You can change it to your own logo by replacing it with your own logo.
 
 ### Write!
